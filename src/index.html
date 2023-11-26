@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Protfolio Tailwindcss</title>
-    <link rel="stylesheet" href="../dist/output.css">
-</head>
-<body>
-
-    <h1 class="bg-secondary">test</h1>
-    
-</body>
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
+  <body>
+    <!-- START:: NAVBAR -->
+    <nav class="container mx-auto flex flex-col md:flex-row gap-4 items-center py-4">
+        <img src="../assets/logo.png" alt="logo" class="w-20 h-20">
+        <div class="w-full flex flex-col md:flex-row gap-4 justify-between items-center">
+            <div class="flex gap-4 items-center">
+                <p>Home</p>
+                <p>channel</p>
+                <p>Supports</p>
+                <p>About</p>
+                <img src="../assets/search.png" alt="face" class="w-4 h-4">
+            </div>
+            <div class="flex gap-4">
+                <div class="flex gap-2 items-center">
+                    <img src="../assets/lock.png" alt="face" class="w-4 h-4">
+                    <p>login</p>
+                </div>
+                <button class="bg-primary px-4 py-2 text-white rounded-md">Donate Now</button>
+            </div>
+        </div>
+    </nav>
+    <!-- END:: NAVBAR -->
+  </body>
 </html>
